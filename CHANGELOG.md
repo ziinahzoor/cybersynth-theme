@@ -7,11 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2024-03-17
+
+## Changed
+
+-   Updated gemspec.
+
 ## [0.1.3] - 2024-03-17
 
 ### Fixed
 
--   Fixes Changelog URL.
+-   Fixed Changelog URL.
 
 ## [0.1.2] - 2024-03-17
 
@@ -31,13 +37,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   Points to remote repository so it works on GitHub.
 
-## [0.1.0] - 2024-03-16
+## [0.1.0] - 2024-03-17
 
 ### Added
 
 -   First implementation of project.
 
-[unreleased]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.3...main
+[unreleased]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.4...main
+[0.1.4]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.0...v0.1.1
