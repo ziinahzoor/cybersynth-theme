@@ -1,0 +1,64 @@
+@import 'variables';
+
+.alert {
+	padding: 0.75rem 1rem;
+	border: 1px solid;
+	border-left-width: 5px;
+	border-radius: 5px;
+	margin: 1rem 0;
+	font-style: italic;
+
+	& > p {
+		margin-bottom: 0;
+		&:first-child {
+			font-size: 1.25rem;
+			display: flex;
+			align-items: center;
+			border-bottom: solid 1px;
+			margin-top: 0;
+			margin-bottom: 20px;
+			padding-bottom: 0.2rem;
+
+			& > svg {
+				width: 1.25rem;
+				height: 1.25rem;
+				margin-right: 0.25rem;
+			}
+		}
+
+		&:last-child {
+			color: $white;
+			font-size: 0.9rem;
+		}
+	}
+}
+
+.note {
+	color: rgb(47, 129, 247);
+	fill: rgb(47, 129, 247);
+	border-color: rgb(47, 129, 247);
+}
+
+.tip {
+	color: rgb(63, 185, 80);
+	fill: rgb(63, 185, 80);
+	border-color: rgb(63, 185, 80);
+}
+
+.important {
+	color: rgb(163, 113, 247);
+	fill: rgb(163, 113, 247);
+	border-color: rgb(163, 113, 247);
+}
+
+.warning {
+	color: rgb(210, 153, 34);
+	fill: rgb(210, 153, 34);
+	border-color: rgb(210, 153, 34);
+}
+
+.caution {
+	color: rgb(248, 81, 73);
+	fill: rgb(248, 81, 73);
+	border-color: rgb(248, 81, 73);
+}

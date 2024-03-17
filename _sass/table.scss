@@ -1,0 +1,39 @@
+@import 'variables';
+
+table {
+	display: block;
+	overflow-x: auto;
+	border-collapse: collapse;
+
+	> thead > tr:first-child,
+	> tr:first-child {
+		background-color: $cybergreen;
+
+		& > th {
+			border: 1px solid darken($cybergreen, 10%);
+			color: darken($cybergreen, 35%);
+		}
+	}
+
+	tr:nth-child(even) {
+		background-color: darken($cybergreen, 35%);
+		color: $white;
+	}
+
+	td,
+	th {
+		border: 1px solid lighten($cybergreen, 30%);
+		color: inherit;
+		text-align: left;
+		padding: 5px 10px;
+	}
+
+	th {
+		color: lighten($cybergreen, 55%);
+		font-size: 1rem;
+	}
+
+	td {
+		font-size: 0.9rem;
+	}
+}

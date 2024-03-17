@@ -1,0 +1,12 @@
+title: Cybersynth theme
+email: rafaelxsantosx@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+    A cyberpunk theme with header navigation
+baseurl: '/'
+url: ''
+twitter_username: ziinahzoor
+github_username: ziinahzoor
+
+markdown: kramdown
+google_analytics:
+theme: cybersynth-theme

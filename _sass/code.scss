@@ -1,0 +1,112 @@
+@import 'variables';
+
+:not(pre) > code,
+pre.highlight {
+	font-family: Arvo, Monaco, monospace;
+	background-color: $background-code;
+	border-radius: 5px;
+}
+
+:not(pre) > code {
+	padding: 3px;
+	color: $cybergreen;
+}
+
+pre.highlight {
+	padding: 10px;
+	overflow: auto;
+
+	code,
+	span {
+		font-family: inherit;
+	}
+
+	&,
+	.w {
+		color: $white;
+	}
+
+	.err {
+		color: $background-alt;
+		background-color: rgb(248, 81, 73);
+	}
+
+	.gh {
+		font-weight: bold;
+	}
+
+	.c,
+	.cd,
+	.cm,
+	.c1,
+	.cs,
+	.cp {
+		color: #888;
+	}
+
+	.o,
+	.ow,
+	.p,
+	.pi {
+		color: #d0d0d0;
+	}
+
+	.gd {
+		color: rgb(248, 81, 73);
+	}
+
+	.k,
+	.kn,
+	.kp,
+	.kr,
+	.kv {
+		color: $cyberpink;
+	}
+
+	.kc,
+	.kt,
+	.kd,
+	.sr {
+		color: $cybergreen;
+	}
+
+	.dl,
+	.s,
+	.sb,
+	.sc,
+	.sd,
+	.s2,
+	.sh,
+	.sx,
+	.s1,
+	.na,
+	.gh {
+		color: $cyberblue;
+	}
+
+	.si,
+	.se {
+		color: $cyberpurple;
+	}
+
+	.nf,
+	.nn,
+	.nc,
+	.no,
+	.nt {
+		color: $cyberyellow;
+	}
+
+	.m,
+	.mf,
+	.mh,
+	.mi,
+	.il,
+	.mo,
+	.mb,
+	.mx,
+	.ss,
+	.gi {
+		color: rgb(63, 185, 80);
+	}
+}

@@ -1,0 +1,88 @@
+@import 'alerts';
+@import 'code';
+@import 'fonts';
+@import 'page-structure';
+@import 'table';
+@import 'variables';
+
+body {
+	font-family: Arvo, Monaco, serif;
+	background-color: #0d1117;
+	line-height: 1.75rem;
+	padding: 2rem;
+}
+
+body,
+strong {
+	color: $white;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-block: 1.5rem;
+	color: $cyberpink;
+}
+
+a,
+a:focus,
+a:visited {
+	color: $cyberblue;
+	font-weight: unset;
+	text-decoration: none;
+
+	&:hover {
+		color: $cybergreen;
+		font-weight: unset;
+	}
+}
+
+details {
+	color: $cyberblue;
+	cursor: pointer;
+
+	&:hover {
+		color: $cybergreen;
+	}
+}
+
+blockquote {
+	margin: 0;
+	padding-inline: 1rem;
+	border-left: 0.5rem solid $cyberpink;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: '◈';
+}
+
+ul,
+ol {
+	padding-left: 1rem;
+
+	li {
+		padding-left: 1rem;
+
+		&::marker {
+			color: $cyberpink;
+			font-style: normal;
+		}
+	}
+
+	ul {
+		padding-left: 1.5rem;
+	}
+}
+
+dt {
+	font-weight: bold;
+	color: $cyberpink;
+}
