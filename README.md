@@ -9,7 +9,7 @@ It's simple to use the Cybersynth on your GitHub pages site:
 1. Add the code bellow to your `_config.yml` file:
     
 ```yaml
-remote_theme: ziinahzoor/cybersynth-theme@v0.1.0
+remote_theme: https://github.com/ziinahzoor/cybersynth-theme
 plugins:
 - jekyll-remote-theme
 ```
