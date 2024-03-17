@@ -1,50 +1,39 @@
-# cybersynth-theme
+# Cybersynth Jekyll Theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+Cybersynth is a cyberpunk Jekyll theme with header navigation for GitHub pages.
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+It's simple to use the Cybersynth on your GitHub pages site:
+
+1. Add the code bellow to your `_config.yml` file:
+    
+```yaml
+remote_theme: ziinahzoor/cybersynth-theme@v0.1.0
+plugins:
+- jekyll-remote-theme
+```
+
+2. To preview it locally, add the following code to your `Gemfile`:
 
 ```ruby
-gem "cybersynth-theme"
+gem "github-pages", group: :jekyll_plugins
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+3. And then execute:
 
-```yaml
-theme: cybersynth-theme
+```
+$ bundle install
 ```
 
-And then execute:
+## Customizing
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cybersynth-theme
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Just follow the [Jekyll documentation](https://jekyllrb.com/docs/themes/).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cybersynth-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `cybersynth-theme.gemspec` accordingly.
+Bug reports are welcome on [Cybersynth's GitHub Repository](https://github.com/ziinahzoor/cybersynth-theme).
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). Feel free to use it and customize it the way you like.
