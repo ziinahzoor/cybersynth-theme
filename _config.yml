@@ -9,7 +9,7 @@ github_username: ziinahzoor
 
 markdown: kramdown
 google_analytics:
-remote_theme: ziinahzoor/cybersynth-theme@v0.1.0
+remote_theme: https://github.com/ziinahzoor/cybersynth-theme
 
 plugins:
     - jekyll-remote-theme
