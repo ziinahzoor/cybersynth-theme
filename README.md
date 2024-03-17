@@ -1,6 +1,6 @@
 # Cybersynth Jekyll Theme
 
-Cybersynth is a cyberpunk Jekyll theme with header navigation for GitHub pages.
+Cybersynth is a cyberpunk Jekyll theme with header navigation for GitHub pages. Check out the [example](https://ziinahzoor.github.io/cybersynth-theme/) website.
 
 ## Installation
 
