@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "cybersynth-theme"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["Rafael Rosa Becker dos Santos"]
   spec.email         = ["rafaelxsantosx@hotmail.com"]
 
@@ -16,5 +16,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.0"
   spec.metadata['homepage_uri']     = spec.homepage
   spec.metadata['source_code_uri']  = spec.homepage
-  spec.metadata['changelog_uri']    = spec.homepage + 'blob/main/CHANGELOG.md'
+  spec.metadata['changelog_uri']    = spec.homepage + '/blob/main/CHANGELOG.md'
 end

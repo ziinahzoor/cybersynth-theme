@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2024-03-17
+
+### Fixed
+
+-   Fixes Changelog URL.
+
 ## [0.1.2] - 2024-03-17
 
 ### Added
@@ -31,7 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   First implementation of project.
 
-[unreleased]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.2...main
+[unreleased]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.3...main
+[0.1.3]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/ziinahzoor/cybersynth-theme/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/ziinahzoor/cybersynth-theme/releases/tag/v0.1.0
