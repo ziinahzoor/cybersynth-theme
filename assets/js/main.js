@@ -88,7 +88,7 @@ function addAlerts() {
 		const matchType = matches[1].toLowerCase();
 		const alertText = matches[2].trim();
 
-		alert.innerHTML = `${notas[matchType]}${alertTypes[matchType].toUpperCase()}`;
+		alert.innerHTML = `${alerts[matchType]}${alertTypes[matchType].toUpperCase()}`;
 
 		const textElement = document.createElement('p');
 		textElement.innerHTML = alertText;
