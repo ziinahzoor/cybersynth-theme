@@ -86,3 +86,9 @@ dt {
 	font-weight: bold;
 	color: $cyberpink;
 }
+
+hr {
+	border: 1px solid $cyberpink;
+	box-shadow: 1px 1px $cybergreen;
+	border-radius: 5px;
+}

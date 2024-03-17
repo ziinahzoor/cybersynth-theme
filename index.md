@@ -105,6 +105,10 @@ You can also use images (as expected):
 
 # Other features
 
+## Horizontal lines, like this one down here:
+
+---
+
 ## Look to the left side of the screen
 
 There are a navigation menu so you can quickly navigate through the headers of your page. (Not on mobile, but I'm planning to add that soon).
