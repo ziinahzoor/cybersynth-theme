@@ -26,6 +26,10 @@
 </head>
 
 <body>
+	<header class="mobile mobile-header">
+		<h1>{{ site.title }}</h1>
+	</header>
+
 	<div class="navigation-wrapper">
 		<header>
 			<h1>{{ site.title }}</h1>
@@ -44,6 +48,14 @@
 	<section>
 		{{ content }}
 	</section>
+
+	<footer class="mobile mobile-footer">
+		{% if site.github.is_project_page %}
+		<p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+		{% endif %}
+		<p><small>Hosted on GitHub &mdash; Theme by <a href="https://rafaelrosa.dev">ziinahzoor</a></small>
+		</p>
+	</footer>
 </body>
 
 </html>

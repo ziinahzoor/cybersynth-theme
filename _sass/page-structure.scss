@@ -7,6 +7,10 @@ section {
 	float: right;
 }
 
+.mobile {
+	display: none;
+}
+
 .navigation-wrapper {
 	position: fixed;
 	display: flex;
@@ -94,11 +98,48 @@ li > a.selected-header {
 }
 
 @media print, screen and (max-width: 960px) {
+	.mobile {
+		background-color: $background-alt;
+		display: flex;
+		position: sticky;
+		z-index: 1;
+
+		&.mobile-header {
+			top: 1rem;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			box-shadow: 0 0.1rem $cyberpink, 0 0.2rem $cybergreen,
+				0 0.1rem 1rem $cyberpink;
+			border-radius: 50px;
+
+			> h1 {
+				font-family: Iceberg, Arvo, serif;
+				font-size: 2.5rem;
+				text-shadow: 1px 1px $cybergreen;
+				overflow-wrap: break-word;
+				line-height: 2.5rem;
+			}
+		}
+
+		&.mobile-footer {
+			bottom: 0;
+			margin-bottom: -40px;
+			border-top: 2px solid $background-code;
+			width: calc(100% + 16px);
+			padding-inline: 2rem;
+			margin-left: -40px;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+	}
+
 	.navigation-wrapper {
 		display: none;
 	}
 
 	section {
 		width: 100%;
+		position: relative;
 	}
 }
