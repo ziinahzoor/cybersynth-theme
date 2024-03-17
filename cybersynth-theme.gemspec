@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "cybersynth-theme"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Rafael Rosa Becker dos Santos"]
   spec.email         = ["rafaelxsantosx@hotmail.com"]
 
