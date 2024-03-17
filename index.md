@@ -27,6 +27,7 @@ This is a paragraph
         -   More nesting
 -   ~~This is a Strikethrough text~~ (maybe it isn't anymore)
 -   [This one is a link, please click on it](https://rafaelrosa.dev)
+    -   Here's a simple footnote[^1], and here's another one[^anothernote]
 
 ## If you want an ordered one:
 
@@ -47,6 +48,11 @@ This is a paragraph
 <dt>Job</dt>
 <dd>Developer</dd>
 </dl>
+
+## Task lists too?
+
+-   [x] Yes, we support them
+-   [ ] No, unfortunately
 
 # Code
 
@@ -103,12 +109,37 @@ You can also use images (as expected):
 | it             |   normally   |            :) |
 | this last line | is here just | to take space |
 
-# Other features
-
 ## Horizontal lines, like this one down here:
 
 ---
 
+# Other features
+
+## GitHub's Markdown alerts
+
+> [!IMPORTANT]
+> We support them. See the usage bellow.
+
+```markdown
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+```
+
 ## Look to the left side of the screen
 
 There are a navigation menu so you can quickly navigate through the headers of your page. (Not on mobile, but I'm planning to add that soon).
+
+[^1]: This is the first footnote.
+[^anothernote]: Here's the second one.
