@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   CHANGELOG.
 -   Rubygems Metadata.
+-   Creates Rakefile for building task.
 
 ### Fixed
 
