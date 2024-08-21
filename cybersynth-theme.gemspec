@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "cybersynth-theme"
   spec.summary       = "A cyberpunk theme with header navigation"
   spec.homepage      = "https://github.com/ziinahzoor/cybersynth-theme"
-  spec.version       = "0.1.4"
+  spec.version       = "0.1.5"
   spec.license       = "MIT"
 
   spec.authors       = ["Rafael Rosa Becker dos Santos"]
