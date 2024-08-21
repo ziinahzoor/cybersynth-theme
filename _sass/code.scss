@@ -2,7 +2,7 @@
 
 :not(pre) > code,
 pre.highlight {
-	font-family: Arvo, Monaco, Inter, 'Tengwar-Annatar' monospace;
+	font-family: Arvo, Monaco, Inter, 'Tengwar-Annatar', monospace;
 	background-color: $background-code;
 	border-radius: 5px;
 }
